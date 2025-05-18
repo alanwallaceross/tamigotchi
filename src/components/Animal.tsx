@@ -78,7 +78,6 @@ const Animal: React.FC<AnimalProps> = ({
             <span className="animal-name-label">Name: </span>
             <span
               ref={nameDisplayRef}
-              contentEditable={true}
               suppressContentEditableWarning={true}
               onKeyDown={handleNameKeyDown}
               onBlur={handleNameBlur}
