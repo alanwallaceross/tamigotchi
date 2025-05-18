@@ -6,8 +6,7 @@
 
 1. Clone the project
 2. Run `bun install`
-3. Write some magic to make your pets come alive!
-4. Push up to a brand new repo and send us a link
+3. Run `bun dev`
 
 ## The Brief
 
