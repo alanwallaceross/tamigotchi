@@ -1,10 +1,6 @@
-# Animals Sample App 🐩
+# Tamigotchi App 🐩
 
 > _What could be more fun than having a pet? Making your own!_
-
-## What Is This?
-
-Your job is to create your own digital pet platform using this codebase as a starting point - how you continue is up to you!
 
 ## Getting Started
 
