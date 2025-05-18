@@ -1,0 +1,5 @@
+[test]
+globals = true
+preload = ["./happydom.setup.ts"]
+coverageThreshold = 0.9
+coverageSkipTestFiles = true

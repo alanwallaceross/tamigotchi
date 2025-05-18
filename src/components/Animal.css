@@ -1,0 +1,134 @@
+.animal-container {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.animal-animal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.animal-image {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #eee;
+}
+
+.animal-identity {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.animal-name-display {
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #333;
+  display: flex;
+  width: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.animal-name-label {
+  margin-right: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.animal-name-value {
+  font-weight: normal;
+  border: 1px dashed transparent;
+  border-radius: 3px;
+  cursor: text;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.animal-name-value:focus {
+  border-color: #61dafb;
+  outline: none;
+  box-shadow: 0 0 3px #61dafb;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+
+.animal-type-display {
+  font-size: 1em;
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.animal-stats {
+  width: 100%;
+}
+
+.stat {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.stat strong {
+  margin-right: 10px;
+  flex-basis: 80px;
+  flex-shrink: 0;
+}
+
+.meter {
+  flex-grow: 1;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 10px;
+  min-width: 100px;
+}
+
+.meter-fill {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 10px 0 0 10px;
+  transition: width 0.3s ease-in-out;
+}
+
+.action-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 0.9em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  min-width: 60px;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}

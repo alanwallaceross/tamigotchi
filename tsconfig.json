@@ -1,7 +1,12 @@
 {
+  "compilerOptions": {
+    "types": ["bun-types", "jest", "@testing-library/jest-dom"],
+    "esModuleInterop": true
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ]
 }
+
